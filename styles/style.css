@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--page-gap, 40px);
-  padding-inline: var(--page-padding, 10px);
   color: var(--text-color, #f1b2ce);
   font-family: var(--font-family, 'Courier New', Courier, monospace);
   font-size: var(--font-size, 18px);
@@ -16,6 +15,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.content {
+  padding-inline: var(--page-padding, 10px);
 }
 
 .header {
@@ -36,7 +39,7 @@
   content: '';
   position: absolute;
   display: block;
-  margin-block: var(--page-padding, 10px);
+  margin: var(--page-padding, 10px);
   border: 1px solid var(--accent-text-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
@@ -64,7 +67,7 @@
   align-items: center;
   gap: 10px;
   padding-inline-end: 9px;
-  padding-block: var(--page-padding, 10px);
+  padding: var(--page-padding, 10px);
   color: var(--accent-color, #ff0070);
   line-height: 25px;
   text-transform: uppercase;
@@ -77,6 +80,7 @@
   background-color: currentColor;
   inline-size: 10px;
   block-size: 10px;
+  margin-inline-end: 10px;
 }
 
 .header__theme-menu {
