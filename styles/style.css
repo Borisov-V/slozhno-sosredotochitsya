@@ -28,7 +28,6 @@
 .decorated-zone {
   position: relative;
   padding-block: var(--page-padding, 10px);
-  min-block-size: 100vh;
   min-block-size: 100lvh;
 }
 
