@@ -18,7 +18,7 @@
   --main-gap: 50px;
 }
 
-@media (width >=768px) {
+@media (width >=700px) {
   :root {
     --page-padding: 20px;
     --page-gap: 60px;

@@ -31,7 +31,7 @@
 .decorated-zone {
   position: relative;
   padding-block: var(--page-padding, 10px);
-  min-block-size: 100lvh;
+  min-block-size: max(668px, 100lvh);
 }
 
 .decorated-zone::before,
